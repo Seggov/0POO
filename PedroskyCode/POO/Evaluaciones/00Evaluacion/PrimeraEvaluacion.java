@@ -1,3 +1,3 @@
-public class PrimeraEvaluacion {
+public class main {
     
 }
