@@ -23,4 +23,3 @@ Para clonar el repositorio en tu máquina local (Windows):
     ```
 
 ---
-**Autor:** [Seggov](https://github.com/Seggov)
