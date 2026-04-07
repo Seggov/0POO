@@ -1,0 +1,31 @@
+===========================================================================
+EJERCICIO NIVEL 1: CREACIÓN DE LA CLASE POKEMON Y ENCAPSULAMIENTO
+===========================================================================
+
+CONTEXTO:
+Para poder simular el juego, primero necesitamos definir qué es un Pokémon 
+dentro de nuestro código. Según el archivo 'Pokedex.txt', un Pokémon tiene 
+nombre, tipo y varias estadísticas numéricas.
+
+TU TAREA:
+1. Crea una clase llamada 'Pokemon' en un archivo llamado Pokemon.java.
+2. Define los siguientes atributos como PRIVADOS (Encapsulamiento):
+   - nombre (String)
+   - tipo (String)
+   - vida (int)
+   - ataque (int)
+   - defensa (int)
+3. Crea un CONSTRUCTOR que reciba estos 5 parámetros e inicialice los 
+   atributos de la clase usando la palabra reservada 'this'.
+4. Crea los métodos GETTER y SETTER para cada atributo.
+5. En una clase aparte (puede ser tu Main.java), instancia (crea) dos 
+   objetos Pokémon con los datos del archivo de ejemplo:
+   - "Mawile", "Acero", 50, 85, 85
+   - "Gliscor", "Tierra", 75, 95, 125
+6. Imprime en consola el nombre y la vida de ambos Pokémon accediendo 
+   SOLO a través de los métodos Getter.
+
+REGLA DE ORO DE ESTE NIVEL:
+No debe haber ningún atributo público. Si intentas hacer 'pokemon.nombre' 
+desde el Main, el código debería dar error. Debes usar 'pokemon.getNombre()'.
+===========================================================================
